@@ -1,0 +1,72 @@
+.header {
+  color: white;
+  width: 85vw;
+  margin-top: 20px;
+}
+
+.movies,
+.tv {
+  font-size: 22px;
+  font-weight: bold;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.underLine-Movie,
+.underLine-Tv {
+  transition: width 500ms, height 500ms, transform 500ms;
+}
+.underLine-Movie {
+  width: 75px;
+  height: 2px;
+  background-color: white;
+}
+
+.underLine-Tv {
+  margin-left: 95px;
+  width: 90px;
+  height: 2px;
+  background-color: white;
+}
+
+.geners {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  overflow-x: scroll;
+}
+
+.geners span {
+  margin-right: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.geners span:first-child,
+.geners span:last-child {
+  margin-left: 10px;
+}
+
+.geners span:hover {
+  transform: scale(1.1);
+}
+
+.scrollbar-css::-webkit-scrollbar {
+  height: 0px;
+}
+
+.current-page {
+  display: flex;
+  align-items: center;
+}
+
+.IoIosArrowForward {
+  color: white;
+  margin: 0px 10px;
+}
+
+.currentMovieTv,
+.currentGen {
+  color: white;
+  text-transform: capitalize;
+}

@@ -1,0 +1,70 @@
+.cast-display {
+  position: relative;
+  display: flex;
+  overflow: scroll;
+  overflow-y: hidden;
+  margin-left: 50px;
+}
+
+.cast-card {
+  width: 180px;
+  margin: 10px;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.profile-pic {
+  width: 180px;
+  height: 210px;
+}
+
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+}
+.custom-scrollbar-css::-webkit-scrollbar {
+  width: 1px;
+  height: 5px;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+.custom-scrollbar-css::-webkit-scrollbar-thumb {
+  border-radius: 5rem;
+  background-color: #00d2ff;
+  background-image: linear-gradient(to top, #00d2ff 0%, #3a7bd5 100%);
+}
+
+.ON-CN {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+.character {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+@media (max-width: 767.98px) {
+  .cast-card {
+    width: 140px;
+    margin: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .profile-pic {
+    width: 140px;
+    height: 170px;
+  }
+
+  .ON-CN {
+    font-size: 14px;
+  }
+}

@@ -1,0 +1,32 @@
+.card {
+  width: 180px;
+  height: 250px;
+  box-shadow: 5px 5px 5px black, -1px 0 0.4em black;
+  border-radius: 5px;
+  margin: 8px;
+  overflow: hidden;
+  cursor: pointer;
+  position: relative;
+  transition: width 500ms, height 500ms, transform 500ms;
+}
+
+.card:hover {
+  transform: scaleY(1.2) scaleX(1.2);
+  z-index: 2;
+}
+
+.card-image img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@media (max-width: 767.98px) {
+  .card {
+    width: 120px;
+    height: 150px;
+  }
+}
