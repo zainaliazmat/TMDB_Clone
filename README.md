@@ -1,6 +1,6 @@
 # TMDB_Clone
 
-Website Link https://jscure.netlify.app/
+Website Link https://itstmdbclone.netlify.app/
 
 Home Page
 
